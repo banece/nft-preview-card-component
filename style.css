@@ -45,14 +45,23 @@ article {
 
 .main img {
     width: 280px;
+    display: block;
     border-radius: 10px;
-    margin-bottom: 1.2rem;
+}
+
+.main > div {
+    border-radius: 10px;
+    background-color: var(--cyan);
+    background-image: url(./images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .main h1{
     font-size: 1.1rem;
     font-weight: 600;
     color: var(--lightgray);
+    margin-top: 1.2rem;
     margin-bottom: 0.8rem;
 }
 
@@ -118,10 +127,19 @@ footer {
     margin-bottom: 1.3rem;
 }
 
+h1:hover, span:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.main img:hover {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
 @media screen and (min-width: 1440px) {
     .main img {
         width: 240px;
-        margin-bottom: 0.5rem;
     }
 
     article {
@@ -130,7 +148,7 @@ footer {
 
     .main h1 {
         font-size: 0.9rem;
-        margin-bottom: 0.6rem;
+        margin: 0.6rem 0;
     }
 
     p {
