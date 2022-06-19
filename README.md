@@ -17,8 +17,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [github.com/banece/nft-preview-card-component-main](https://github.com/banece/nft-preview-card-component-main)
+- Live Site URL: [banece.github.io/nft-preview-card-component-main/](https://banece.github.io/nft-preview-card-component-main/)
 
 ## My process
 
@@ -27,16 +27,15 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Grid
 - Mobile first
 
 ### What I learned
 
-Some more of grid and flex. How to make a "fake" border to span the whole element.
+More info on flex. How to make an image overlay.
 
 ### Continued development
 
-Continue on improving my grid and flex layouts.
+Continue on improving on translating design into usable websites.
 
 ### Useful resources
 
