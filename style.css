@@ -23,5 +23,134 @@ html {
 }
 
 body {
-    background-color: var(--darkblue);
+    background-color: #0D1A2D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+article {
+    background-color: #15273F;
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    border-radius: 15px;
+    padding: 0 1.3em;
+}
+
+.main {
+    padding-top: 1.3em
+}
+
+.main img {
+    width: 280px;
+    border-radius: 10px;
+    margin-bottom: 1.2rem;
+}
+
+.main h1{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--lightgray);
+    margin-bottom: 0.8rem;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+.main p{
+    margin-bottom: 0.5rem;
+    color: #819AB9;
+    line-height: 1.5rem;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+li p {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 600;
+    color: var(--cyan);
+}
+
+li img {
+    vertical-align: middle;
+}
+
+ul li:last-child > p {
+    color: var(--grayblue);
+    font-weight: 300;
+}
+
+hr {
+    margin: 1em 0;
+    border: none;
+    border-top: 1px solid var(--darkblue);
+}
+
+footer > img {
+    width: 1.8rem;
+    vertical-align: middle;
+    border: 1px solid var(--lightgray);
+    border-radius: 360px;
+    margin-right: 0.8rem;
+}
+
+footer > p {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 400;
+    color: #819AB9;
+}
+
+span {
+    color: white;
+}
+
+footer {
+    margin-bottom: 1.3rem;
+}
+
+@media screen and (min-width: 1440px) {
+    .main img {
+        width: 240px;
+        margin-bottom: 0.5rem;
+    }
+
+    article {
+        padding: 0 1rem;
+    }
+
+    .main h1 {
+        font-size: 0.9rem;
+        margin-bottom: 0.6rem;
+    }
+
+    p {
+        font-size: 0.7rem;
+    }
+
+    .main p {
+        line-height: 1.2rem;
+    }
+
+    hr {
+        margin: 0.6em 0;
+    }
+
+    footer > img {
+        width: 1.4rem;
+        margin-right: 0.5rem;
+    }
+
+    footer > p {
+        font-size:
+    }
 }
